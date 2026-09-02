@@ -1,4 +1,33 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://yooonivers.github.io/remembers/'
+languageCode = 'ko-kr'
+title = 'Remembers'
 theme = "PaperMod"
+
+# --- 여기서부터 추가해 보세요 ---
+
+[params]
+  ShowCodeCopyButtons = true  # 코드 블록 우측 상단에 '복사' 버튼 생성 (개발 포트폴리오 필수!)
+  ShowReadingTime = true      # 글을 읽는 데 걸리는 예상 시간 표시
+  ShowToc = true              # 글 안에 목차(Table of Contents) 자동 생성
+  defaultTheme = "auto"       # 방문자의 기기 설정에 따라 다크모드/라이트모드 자동 적용
+
+# 1. 포트폴리오 메인 화면 프로필 (첫 화면에 띄울 문구)
+[params.homeInfoParams]
+  Title = "안녕하세요! 👋"
+  Content = "배운 것을 기록하고 나누는 포트폴리오 공간입니다."
+
+# 2. 사이트 상단 내비게이션 메뉴바
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 3
