@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "content/posts/예시.md",
+            "file": "content/posts/first-post.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "content/posts/예시.md",
+            "file": "content/posts/first-post.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "content/posts/예시.md",
+            "file": "content/posts/first-post.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -154,10 +154,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f2e22fc2d31adac",
+  "active": "9ded0ae28fd225f2",
   "lastOpenFiles": [
     "content/posts/first-post.md",
     "content/posts/예시.md",
+    "content/posts/임시용.md",
+    "templates/Study.md",
+    "templates",
     "themes/PaperMod",
     "themes",
     "archetypes/default.md",
@@ -168,7 +171,6 @@
     "public/posts/page/1/index.html",
     "public/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css",
     "public/posts/first-post/index.html",
-    "public/posts/page/1",
     "Untitled.md"
   ]
 }

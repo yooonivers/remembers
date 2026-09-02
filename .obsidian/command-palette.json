@@ -1,5 +1,8 @@
 {
   "pinned": [
-    "obsidian-git:clone-repo"
+    "insert-template",
+    "obsidian-git:push2",
+    "obsidian-git:commit-smart",
+    "obsidian-git:pull"
   ]
 }
